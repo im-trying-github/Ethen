@@ -1,0 +1,30 @@
+/* .fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 5s;
+}
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+        width: 100px;
+        height: 100px;
+    }
+    to {
+        opacity: 1;
+        width: 200px;
+        height: 200px;
+    }
+}
+.blink-colour {
+    animation-name: blink-colour-animation;
+    animation-duration: 500ms;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+}
+@keyframes blink-colour-animation {
+    from {
+        color:white;
+    }
+    to {
+        color:#40476D;
+    }
+} */

@@ -1,0 +1,67 @@
+body {
+    background-image: url(img/background-img.png);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+header {
+    background-color:#FFFAFF;
+    color:#40476D;
+    text-align: center;
+    font-size: 50px;
+    border:3px solid #FFFAFF;
+}
+p {
+    color:skyblue;
+    background-color:darkblue;
+    text-align: center;
+}
+td {
+    background-color:royalblue;
+}
+h1 ,h3{
+    color:skyblue;
+    background-color:darkblue;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma,sans-serif;
+    text-transform: capitalize;
+}
+h2 {
+    color:chocolate;
+}
+ol {
+    background-color:royalblue;
+    font-family: 'Segoe UI', Tahoma,sans-serif;
+}
+li {
+    background-color:cornflowerblue;
+    font-family: 'Tahoma'
+}
+a {
+    font-family: 'Segoe UI', Tahoma,sans-serif;
+    text-decoration: none;
+}
+footer {
+    background-color: #40476D;
+    color: #FFFAFF;
+    font-size: 12px;
+    border: 3px solid #FFFAFF;
+    padding-left: 5px;
+    text-align: center;
+}
+.active {
+    background-color: lightcoral;
+}
+.navbar {
+    background-color:#FFFAFF;
+    border: solid #40476D;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.navbar table {
+    border: solid #40476D;
+}
+.navbar table td {
+    border: solid #40476D;
+    padding: 5px;
+}
