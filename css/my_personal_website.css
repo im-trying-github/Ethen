@@ -12,7 +12,6 @@ header {
 .navbar {
     background-color:#FFFAFF;
     border: solid #40476D;
-    font-size: 20px;
     position: sticky;
     top: 0px;
 }
@@ -23,6 +22,7 @@ header {
 .navbar table td {
     border: solid #40476D;
     padding:5px;
+    font-size: 20px;
 }
 footer {
     background-color: #40476D;
@@ -46,7 +46,6 @@ footer {
 }
 .dropdown {
     display: inline-block;
-    margin-bottom: 20px;
 }
 .dropdown-content {
     display: none;
@@ -70,7 +69,6 @@ a {
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 10px;
 }
 
 .fade-in {
@@ -90,17 +88,6 @@ a {
         height: 185px;
     }
 }
-.blink-colour {
-    animation-name: blink-colour-animation;
-    animation-duration: 500ms;
-    animation-iteration-count: 5;
-    animation-direction: alternate;
-}
-@keyframes blink-colour-animation {
-    from {
-        color:white;
-    }
-    to {
-        color:#40476D;
-    }
+td {
+    background-color:royalblue;
 }
