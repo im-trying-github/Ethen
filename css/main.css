@@ -9,7 +9,7 @@ header {
     font-size: 50px;
     border:3px solid #FFFAFF;
 }
-p {
+li {
     color:skyblue;
     background-color:darkblue;
     text-align: center;
@@ -31,10 +31,6 @@ h2 {
 ol {
     background-color:royalblue;
     font-family: 'Segoe UI', Tahoma,sans-serif;
-}
-li {
-    background-color:cornflowerblue;
-    font-family: 'Tahoma'
 }
 a {
     font-family: 'Segoe UI', Tahoma,sans-serif;
@@ -64,4 +60,7 @@ footer {
 .navbar table td {
     border: solid #40476D;
     padding: 5px;
+}
+.p {
+    color:#FFFAFF
 }
